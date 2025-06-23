@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    justify-content: space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+li {
+    margin: 5px;;
+}
+
+.hcontent {
+    display: flex;
+    justify-content: space-around ;
+    margin: 20px;
+    align-items: center;
+}
+
+.herocon_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.htitle {
+    font-weight: 900;
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+}
+.signup {
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+}
+
+.hcontent > img {
+    width: 250px;
+    height: 150px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infocontainer >div >div >img {
+    height: 100px;
+    width: 100px;
+}
+
+.infocontainer > .cont_imgs {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cont_imgs > div > img {
+    border: 5px solid #3882f6;
+    border-radius: 25%;
+}
+
+.cont_imgs > div {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    margin: 0px;
+    background-color: #e5e7eb;
+    padding: 20px;
+}
+
+.hero >.header > div > p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.quote > div {
+    align-self: flex-end;
+}
+
+.actionbar {
+    display: flex;
+    background-color: #3882F6;
+    margin: 40px;
+    border-radius: 3%;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex: 1;
+}
+
+.actionbar > div > p {
+    font-weight: 200;
+}
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
